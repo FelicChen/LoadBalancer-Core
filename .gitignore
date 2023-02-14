@@ -1,0 +1,11 @@
+/.vs
+/LBS/bin
+/LBS/obj
+/LBS/*.user
+/TestSite1/bin
+/TestSite1/obj
+/TestSite1/*.user
+/TestSite2/bin
+/TestSite2/obj
+/TestSite2/*.user
+/TestSite2/TestSite2.csproj.user

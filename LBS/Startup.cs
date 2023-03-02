@@ -26,7 +26,7 @@ public class Startup
             });
         services.AddAntiforgery(options =>
         {
-            options.Cookie.Name = "BesLBS";
+            options.Cookie.Name = "LBS";
         });
         return services.BuildServiceProvider();
     }

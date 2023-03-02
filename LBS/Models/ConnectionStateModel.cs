@@ -1,4 +1,4 @@
-﻿using Newtonsoft.Json;
+﻿//using Newtonsoft.Json;
 
 public class ConnectionStateModel
 {
@@ -6,6 +6,6 @@ public class ConnectionStateModel
     public string IPAddress { get; set; }
     public string SiteName { get; set; }
     public DateTime Timeout { get; set; }
-    [JsonIgnore]
-    public HttpClient Client { get; set; }
+    //[JsonIgnore]
+    //public HttpClient Client { get; set; }
 }
